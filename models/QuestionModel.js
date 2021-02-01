@@ -23,7 +23,7 @@ const QuestionSchema = new Schema({
   reported: {
     type: Number,
   },
-  question_helpful: {
+  question_helpfulness: {
     type: Number,
   },
 });
