@@ -9,6 +9,8 @@ services:
       - 3000:3000
     volumes:
       - .:/usr/src/app
+    links:
+      - sdcdb
   sdcdb:
     image: mongo:latest
     ports:

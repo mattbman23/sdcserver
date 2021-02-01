@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const dbConn = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:27017/sdcdb', {
+    await mongoose.connect('mongodb://sdcdb:27017/sdcdb', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
